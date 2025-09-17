@@ -1,2 +1,0 @@
-Voxel-SLAM/VoxelSLAM:Voxel-SLAM/VoxelSLAMPointCloud2:all:livox_lidar_rosbag_converter
--DCATKIN_DEVEL_PREFIX=/home/yutou/voxelslam/ros_ws/devel -DCMAKE_INSTALL_PREFIX=/home/yutou/voxelslam/ros_ws/install -G Unix Makefiles
