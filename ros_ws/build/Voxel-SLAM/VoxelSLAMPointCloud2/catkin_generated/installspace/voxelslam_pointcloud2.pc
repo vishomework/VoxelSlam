@@ -1,0 +1,8 @@
+prefix=/home/yutou/voxelslam/ros_ws/install
+
+Name: voxelslam_pointcloud2
+Description: Description of voxelslam_pointcloud2
+Version: 0.11.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

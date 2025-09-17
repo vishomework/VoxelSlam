@@ -1,0 +1,9 @@
+<launch>
+    <!-- 启动第一个节点 -->
+    <node pkg="livox_lidar_rosbag_converter" type="pointcloud2_to_custommsg" name="pointcloud2_to_custommsg" output="screen"/>
+
+	<include file="$(find voxel_slam)/launch/vxlm_mid360.launch">
+        <!-- <arg name="use_sim_time" value="true" /> -->
+    </include>
+
+</launch>

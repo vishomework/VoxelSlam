@@ -1,0 +1,2 @@
+livox_ros_driver
+-DCATKIN_DEVEL_PREFIX=/home/yutou/voxelslam/packages/LIVOX_1/ws_livox/devel -DCMAKE_INSTALL_PREFIX=/home/yutou/voxelslam/packages/LIVOX_1/ws_livox/install -G Unix Makefiles

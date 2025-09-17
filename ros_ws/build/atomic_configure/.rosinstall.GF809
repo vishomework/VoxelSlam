@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/yutou/voxelslam/ros_ws/devel/setup.sh

@@ -1,0 +1,8 @@
+prefix=/home/yutou/voxelslam/ros_ws/install
+
+Name: livox_lidar_rosbag_converter
+Description: Description of livox_lidar_rosbag_converter
+Version: 0.0.1
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: roscpp sensor_msgs livox_ros_driver2 pcl_ros
