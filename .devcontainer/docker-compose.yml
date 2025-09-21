@@ -18,7 +18,7 @@ services:
       - /tmp/.X11-unix:/tmp/.X11-unix  # X11 显示
       - /etc/localtime:/etc/localtime:ro \
       - /etc/timezone:/etc/timezone:ro \
-      - ../:/home/yutou/voxelslam  # 映射工作空间
+      - ../config:/home/yutou/catkin_ws/config # 映射工作空间
       - /var/run/docker.sock:/var/run/docker.sock  # docker-in-docker
       - /dev:/dev  # 设备挂载（串口、USB、摄像头等）
 
@@ -30,4 +30,4 @@ services:
     stdin_open: true
     tty: true
     user: "yutou"  # 替换为镜像内用户
-    working_dir: "/home/yutou/voxelslam/ros_ws"  # 替换为对应路径
+    working_dir: "/home/yutou/catkin_ws"  # 替换为对应路径
