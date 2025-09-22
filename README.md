@@ -30,12 +30,13 @@ sudo cp /usr/local/lib/libmetis-gtsam.so /opt/ros/noetic/lib/
 catkin_make
 ```
  **[notice] Maybe your system can't find the link file "libmetis-gtsam.so", don't worry, just copy it from "/opt/ros/noetic/lib/". Actually, you don't need to complie and install it again.**
-#### 4.Run ROS nodes
-**[notice] If you don't want to execute the following two lines of code every time when you open the terminal, you can write them into "~/.bashrc".**
-```bash
-source /opt/ros/noetic/setup.bash
 
+#### 4.Run ROS nodes( through playing data bags, if you wanna use hardware device, just change the parameters in `vxlm_****.launch`)
+**[notice] If you don't want to execute the following two lines of code every time when you open the terminal, you can write them into "~/.bashrc".**
+
+```bash
 // In container: "/workspace"
+source /opt/ros/noetic/setup.bash
 source /devel/setup.bash
 
 // terminal 1:
