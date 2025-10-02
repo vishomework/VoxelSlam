@@ -19,6 +19,7 @@ services:
       - /etc/localtime:/etc/localtime:ro \
       - /etc/timezone:/etc/timezone:ro \
       - ../config:/home/yutou/catkin_ws/config # 映射工作空间
+      - ../ros_ws/src/all://home/yutou/catkin_ws/src/all
       - /var/run/docker.sock:/var/run/docker.sock  # docker-in-docker
       - /dev:/dev  # 设备挂载（串口、USB、摄像头等）
 
