@@ -82,4 +82,4 @@ RUN mkdir -p ~/packages && cd ~/packages && \
     /bin/bash -c "source $ROS_DISTRO_BASH && cd $CATKIN_WS && catkin_make"
 
 # 设置默认命令
-CMD ["/bin/bash", "-c", "source $ROS_DISTRO_BASH && source $CATKIN_WS/devel/setup.bash && bash"]
+CMD ["/bin/bash", "-c", "source $ROS_DISTRO_BASH && source $CATKIN_WS/devel/setup.bash && roslaunch all run.launch"]
